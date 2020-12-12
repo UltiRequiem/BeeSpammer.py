@@ -1,4 +1,4 @@
-# Spam-Bot-for-Whatsapp
+# Spam Bot for Whatsapp or any Messenger Service
 Bot made in Python that sends messages automatically on WhatsApp.
 ##### Tutorial: https://youtu.be/jBxRGcDmfWA
 For it to work they must install the pyautogui library.
