@@ -24,3 +24,5 @@ calls the keyboard press function of the pyautogui module, and makes the program
 
 ### time.sleep(5)
  will spam someone, so make sure to click on the text box of whatever messaging app you're using to spam before your 5 seconds is up!
+
+## If u need more help: https://discord.gg/XptTZhZmcc
