@@ -1,39 +1,25 @@
-## Welcome to GitHub Pages
+Bot made in Python that sends messages automatically on WhatsApp.
+##### Tutorial: https://youtu.be/jBxRGcDmfWA
+For it to work they must install the pyautogui library.
+(pip install pyautogui)
 
-You can use the [editor on GitHub](https://github.com/EliazBobadilla/Spam-Bot-for-Whatsapp-or-any-Messenger-Service/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### import pyautogui 
+time imports the necessary modules for the python program. Pyautogui is used for automating keyboard and mouse functions, and time is used for letting the program wait before executing the next line(s). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### time.sleep(5) 
+calls the sleep function from the time module and makes the program wait 5 seconds before spamming.
 
-### Markdown
+### f = open('text.txt', 'r') 
+opens a file (in this example we called it 'text') and puts it in read mode, then it assigns it to a variable (f).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### for word in f: 
+says that for each word (or line) there is in the 'f' variable (which contains our file in read mode), it will do certain actions based on what's in the loop.
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+### pyautogui.typewrite(word) 
+calls the typewrite function of the pyautogui module on the variable in the for loop. Basically it automatically types the word or line of your text based on the contents of the text file.
 
-```markdown
-Syntax highlighted code block
+### pyautogui.press('enter') 
+calls the keyboard press function of the pyautogui module, and makes the program hit the enter key (as specified in the program).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EliazBobadilla/Spam-Bot-for-Whatsapp-or-any-Messenger-Service/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### time.sleep(5)
+ will spam someone, so make sure to click on the text box of whatever messaging app you're using to spam before your 5 seconds is up!
