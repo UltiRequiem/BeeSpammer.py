@@ -1,5 +1,16 @@
 # Spam Bot for Whatsapp or any Messenger Service
 Bot made in Python that sends messages automatically on WhatsApp.
+```python
+import pyautogui,time
+
+print("Ready for Spam OwO")
+time.sleep(5)
+f = open("iwannabeadmi.txt",'r')
+for word in f:
+    pyautogui.typewrite(word)
+    pyautogui.press("enter")
+ ```
+
 ##### Tutorial: https://youtu.be/jBxRGcDmfWA
 For it to work they must install the pyautogui library.
 (pip install pyautogui)
