@@ -11,7 +11,7 @@ for word in f:
     pyautogui.press("enter")
  ```
 
-##### Tutorial: https://youtu.be/jBxRGcDmfWA
+##### [Tutorial](https://youtu.be/jBxRGcDmfWA)
 For it to work they must install the pyautogui library.
 (pip install pyautogui)
 
