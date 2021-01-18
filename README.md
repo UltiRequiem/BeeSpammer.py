@@ -17,7 +17,7 @@ pip install pyautogui
 * Get in the Autofollow-Bot-for-Instagram directory
 * Open a terminal in the directory
 ```
-python main.py
+python spammer.py
 ```
 
 ### Tutorial:
