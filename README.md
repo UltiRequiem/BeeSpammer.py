@@ -1,29 +1,30 @@
 # Spam Bot for Whatsapp or any Messenger Service
-Bot made in Python that sends messages automatically on WhatsApp.
-##### Tutorial: https://youtu.be/jBxRGcDmfWA
-For it to work they must install the pyautogui library.
-(pip install pyautogui)
+Bot made in Python that sends messages automatically on WhatsApp and other messaging applications.
 
-### import pyautogui 
-time imports the necessary modules for the python program. Pyautogui is used for automating keyboard and mouse functions, and time is used for letting the program wait before executing the next line(s). 
+### Dependencies
 
-### time.sleep(5) 
-calls the sleep function from the time module and makes the program wait 5 seconds before spamming.
+* A 3.X Python version
+* PIP3
 
-### f = open('text.txt', 'r') 
-opens a file (in this example we called it 'text') and puts it in read mode, then it assigns it to a variable (f).
+### Installing
+* Make a git clone or dowloand the zip of the proyect
+* Install PyAutogui module:
+```bash
+pip install pyautogui
+```
 
-### for word in f: 
-says that for each word (or line) there is in the 'f' variable (which contains our file in read mode), it will do certain actions based on what's in the loop.
+### Executing program
+* Get in the Autofollow-Bot-for-Instagram directory
+* Open a terminal in the directory
+```
+python main.py
+```
 
-### pyautogui.typewrite(word) 
-calls the typewrite function of the pyautogui module on the variable in the for loop. Basically it automatically types the word or line of your text based on the contents of the text file.
+### Tutorial:
+[![Watch the video](https://i.ytimg.com/an_webp/el1b7AgsShw/mqdefault_6s.webp?du=3000&sqp=CLzrloAG&rs=AOn4CLD0tdIiVc7j0J3P2jcSz6Au-fswaA)](https://youtu.be/jBxRGcDmfWA)
 
-### pyautogui.press('enter') 
-calls the keyboard press function of the pyautogui module, and makes the program hit the enter key (as specified in the program).
+**Click it**
 
-### time.sleep(5)
- will spam someone, so make sure to click on the text box of whatever messaging app you're using to spam before your 5 seconds is up!
-
-## If u need more help: https://discord.gg/XptTZhZmcc
-(MaxCodez Server)
+## Help
+[![Twitter Badge](https://img.shields.io/badge/-@EliazBobadilla-00acee?style=flat&logo=twitter&logoColor=white&link=https://twitter.com/@EliazBobadilla/)](https://www.twitter.com/@EliazBobadilla/)
+[![Gmail Badge](https://img.shields.io/badge/-eliaz.bobadilladev@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:eliaz.bobadilladev@gmail.com)](mailto:eliaz.bobadilladev@gmail.com)
