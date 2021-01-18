@@ -21,7 +21,7 @@ python spammer.py
 ```
 
 ### Tutorial:
-[![Watch the video](https://i.ytimg.com/an_webp/el1b7AgsShw/mqdefault_6s.webp?du=3000&sqp=CLzrloAG&rs=AOn4CLD0tdIiVc7j0J3P2jcSz6Au-fswaA)](https://youtu.be/jBxRGcDmfWA)
+[![Watch the video](https://i.ytimg.com/an_webp/jBxRGcDmfWA/mqdefault_6s.webp?du=3000&sqp=CIDxl4AG&rs=AOn4CLA4da2GxdU6hvOwEvPJLB_WFyXPLg)](https://youtu.be/jBxRGcDmfWA)
 
 **(Click it)**
 
