@@ -26,5 +26,5 @@ python spammer.py
 **(Click it)**
 
 ## Help
-[![Twitter Badge](https://img.shields.io/badge/-@EliazBobadilla-00acee?style=flat&logo=twitter&logoColor=white&link=https://twitter.com/@EliazBobadilla/)](https://www.twitter.com/@EliazBobadilla/)
+[![Twitter Badge](https://img.shields.io/badge/-@UltiRequiem-00acee?style=flat&logo=twitter&logoColor=white&link=https://twitter.com/@UltiRequiem)](https://www.twitter.com/@EliazBobadilla/)
 [![Gmail Badge](https://img.shields.io/badge/-eliaz.bobadilladev@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:eliaz.bobadilladev@gmail.com)](mailto:eliaz.bobadilladev@gmail.com)
