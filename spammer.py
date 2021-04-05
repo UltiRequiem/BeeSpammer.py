@@ -1,5 +1,5 @@
-import pyautogui
 import time
+import pyautogui
 
 def run():
     print("Starting in 5 seconds...")
