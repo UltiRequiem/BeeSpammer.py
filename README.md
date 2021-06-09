@@ -2,7 +2,7 @@
 
 Script made in Python that spam text.
 
-## Dependencies
+## Requirements
 
 - A 3.X Python version
 - PIP
@@ -10,10 +10,11 @@ Script made in Python that spam text.
 ## Installing
 
 ```bash
-sudo pip install beespammer
+sudo pip install bee-spammer
 ```
 
 ## Usage
 
 BeeSpammer will search for `spam.txt` in the directory that is being executed.
+
 You can find some examples of `spam.txt` in [examples](./examples).
