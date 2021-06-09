@@ -1,4 +1,4 @@
-# Spam text in Whatsapp or any Messenger Service
+# Spam text
 
 Script made in Python that spam text.
 
