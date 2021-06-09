@@ -1,3 +1,3 @@
-from .spammer import main
+from beespammer.spammer import main
 
 main()
