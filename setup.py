@@ -14,5 +14,5 @@ setup(
     url="https://github.com/UltiRequiem/BeeSpammer.py",
     license="MIT",
     packages=["beespammer"],
-    entry_points={"console_scripts": ["beespammer = beespammer.beespammer:main"]},
+    entry_points={"console_scripts": ["beespam = beespammer.beespammer:main"]},
 )
