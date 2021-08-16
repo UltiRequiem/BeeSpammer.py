@@ -10,7 +10,7 @@ Script made in Python that spam text.
 ## Installing
 
 ```bash
-pip install bee-spammer
+pip install beespammer
 ```
 
 If you use Linux, you may need to install this with sudo to

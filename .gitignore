@@ -1,3 +1,4 @@
 env/
 beespammer/__pycache__/
 **/.mypy_cache/
+**/dist/
