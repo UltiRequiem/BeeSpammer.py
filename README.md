@@ -10,11 +10,21 @@ Script made in Python that spam text.
 ## Installing
 
 ```bash
-sudo pip install bee-spammer
+pip install bee-spammer
 ```
+
+If you use Linux, you may need to install this with sudo to
+be able to access the command throughout your system.
 
 ## Usage
 
-BeeSpammer will search for `spam.txt` in the directory that is being executed.
+Run:
 
-You can find some examples of `spam.txt` in [examples](./examples).
+```bash
+beespammer
+```
+
+BeeSpammer will search for `spam.txt` in the directory that is
+being executed.
+
+One example is [`spam.txt`](./spam.txt).

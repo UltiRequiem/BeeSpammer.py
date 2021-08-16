@@ -1,0 +1,5 @@
+{
+  "format": "poetry run black .",
+  "lint": "poetry run pylint beespammer",
+  "package": "poetry build && poetry publish"
+}

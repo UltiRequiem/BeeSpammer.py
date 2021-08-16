@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "beespammer"
+version = "4.0.0"
+description = "Spam Text"
+authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+PyAutoGUI = "^0.9.53"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+beespammer = 'beespammer:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,3 +1,3 @@
 env/
 beespammer/__pycache__/
-spam.txt
+**/.mypy_cache/
